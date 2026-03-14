@@ -1,0 +1,66 @@
+---
+config:
+  theme: redux
+  look: neo
+---
+flowchart LR
+    a1["quotes.csv"] --> A1["quotes_df (dataframe)"]
+    a2["quote_requests.csv"] --> A2["quote_request_df (dataframe)"]
+    B["df_engine(Engine ready to use)"] --> C["Orchestrator Agent"]
+    C -- "1. Inventory check" --> D1["Inventory Agent"]
+    C -- "2. Quote details (with inventory_check)" --> D2["Quoting Agent"]
+    C -- "3. Order Confirmation (with quote_details)" --> D3["Ordering Agent"]
+    C --> n16@{ label: "<span style=\"color:\">generate_financial_report (to retrieve information of the company status; helper function; returns Dict)</span>" }
+    D1 --> d1@{ label: "get_all_inventory (to get all inventory of a given date; helper function; returns Dict)<span style=\"color:\"></span>" } & n1(["get_stock_level (to get stock level of a given date; helper function; returns dataframe)"]) & n3@{ label: "<span style=\"color:\">get_item_price (new function; to retrieve unit item price; returns float)</span>" }
+    D2 --> n14(["search_quote_history (to retrieve historical quotes for a given item; helper function: returns Dict)"]) & n4@{ label: "<span style=\"color:\">generate_quote (new function; to retrieve information of inventory availability and pricing after possible discounts; returns Dict)</span>" }
+    n3 --> n4
+    D3 --> n7@{ label: "<span style=\"color:\">create_transaction (to record a transaction of an item; helper function; returns int)</span>" } & n8@{ label: "<span style=\"color:\">get_cash_balance (to calculate current cash balance of a given date;helper function; returns float)</span>" } & n13(["get_supplier_delivery_date (to get stimated delivery date of a given item quantity and starting date; helper function; returns string: date)"])
+    n7 --> n6@{ label: "<span style=\"color:\">place_order (new function; to place order based on quote details, updating inventory and finantial records; returns Dict)</span>" }
+    n8 -- To get company's balance at different dates --> n16
+    n8 -- To confim company can afford order cost --> n6
+    n1 -- To develop the financial order --> n16
+    n1 -- To confirm company can accept a given order --> n6
+    n13 --> n6
+    n5@{ label: "<span style=\"color:\">check_inventory (new function; to retrieve availability of items of interest; returns Dict)</span>" } -- To provide details to quote --> n4
+    n5 -- To ensure company has enough supplies to accept order --> n17["inventory_check"]
+    d1 --> n5
+    n4 --> n18@{ label: "<div style=\"color:\"><span style=\"color:\">quote_details</span></div>" }
+    n6 --> n19["order_confirmation"]
+    n17 --> C
+    n18 --> C
+    A5["inventory (dataframe)"] --> n12(["init_database (to set up database; helper function; returns Engine ready to use)"])
+    A4["transactions_schema (empty dataframe)"] --> n12
+    A2 --> n12
+    A1 --> n12
+    n12 -.-> B
+    A3["df_engine(SQLite database)"] ==> n12
+    n10["paper_suplies (list)"] --> n11(["generate_sample_inventory (to generate inventory of specific item; helper function; returns dataframe)"])
+    n11 -.-> A5
+    n16 --> n20["Financial reports: initial, for a given date, and final"]
+    n14 --> n18
+    n19 --> n21["test_results.csv"]
+
+    a1@{ shape: rect}
+    A1@{ shape: rect}
+    a2@{ shape: rect}
+    A2@{ shape: rect}
+    B@{ shape: cyl}
+    C@{ shape: hex}
+    D1@{ shape: hex}
+    D2@{ shape: hex}
+    D3@{ shape: hex}
+    n16@{ shape: stadium}
+    d1@{ shape: stadium}
+    n3@{ shape: trap-t}
+    n4@{ shape: trap-t}
+    n7@{ shape: stadium}
+    n8@{ shape: stadium}
+    n6@{ shape: trap-t}
+    n5@{ shape: trap-t}
+    n18@{ shape: rect}
+    A5@{ shape: rect}
+    A4@{ shape: rect}
+    A3@{ shape: cyl}
+    n10@{ shape: rect}
+    style d1 color:#000000
+    style n5 color:#000000

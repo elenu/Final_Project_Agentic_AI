@@ -1,0 +1,537 @@
+project student$ python test.py 
+Initializing Database...
+Welcome to the Beavier's Choice Paper Multi-Agent System!
+Initial Factory State: {
+  "as_of_date": "2026-03-14T18:08:24.041697",
+  "cash_balance": 42324.22,
+  "inventory_value": 7675.78,
+  "total_assets": 50000.0,
+  "inventory_summary": [
+    {
+      "item_name": "Paper plates",
+      "stock": 748.0,
+      "unit_price": 0.1,
+      "value": 74.8
+    },
+    {
+      "item_name": "100 lb cover stock",
+      "stock": 636.0,
+      "unit_price": 0.5,
+      "value": 318.0
+    },
+    {
+      "item_name": "Glossy paper",
+      "stock": 587.0,
+      "unit_price": 0.2,
+      "value": 117.4
+    },
+    {
+      "item_name": "Rolls of banner paper (36-inch width)",
+      "stock": 546.0,
+      "unit_price": 2.5,
+      "value": 1365.0
+    },
+    {
+      "item_name": "Photo paper",
+      "stock": 423.0,
+      "unit_price": 0.25,
+      "value": 105.75
+    },
+    {
+      "item_name": "Cardstock",
+      "stock": 595.0,
+      "unit_price": 0.15,
+      "value": 89.25
+    },
+    {
+      "item_name": "Colored paper",
+      "stock": 788.0,
+      "unit_price": 0.1,
+      "value": 78.80000000000001
+    },
+    {
+      "item_name": "80 lb text paper",
+      "stock": 249.0,
+      "unit_price": 0.4,
+      "value": 99.60000000000001
+    },
+    {
+      "item_name": "Large poster paper (24x36 inches)",
+      "stock": 699.0,
+      "unit_price": 1.0,
+      "value": 699.0
+    },
+    {
+      "item_name": "Table covers",
+      "stock": 736.0,
+      "unit_price": 1.5,
+      "value": 1104.0
+    },
+    {
+      "item_name": "Butcher paper",
+      "stock": 365.0,
+      "unit_price": 0.1,
+      "value": 36.5
+    },
+    {
+      "item_name": "Kraft paper",
+      "stock": 493.0,
+      "unit_price": 0.1,
+      "value": 49.300000000000004
+    },
+    {
+      "item_name": "Banner paper",
+      "stock": 793.0,
+      "unit_price": 0.3,
+      "value": 237.89999999999998
+    },
+    {
+      "item_name": "Presentation folders",
+      "stock": 389.0,
+      "unit_price": 0.5,
+      "value": 194.5
+    },
+    {
+      "item_name": "Patterned paper",
+      "stock": 548.0,
+      "unit_price": 0.15,
+      "value": 82.2
+    },
+    {
+      "item_name": "A4 paper",
+      "stock": 272.0,
+      "unit_price": 0.05,
+      "value": 13.600000000000001
+    },
+    {
+      "item_name": "Invitation cards",
+      "stock": 526.0,
+      "unit_price": 0.5,
+      "value": 263.0
+    },
+    {
+      "item_name": "Crepe paper",
+      "stock": 234.0,
+      "unit_price": 0.05,
+      "value": 11.700000000000001
+    },
+    {
+      "item_name": "250 gsm cardstock",
+      "stock": 436.0,
+      "unit_price": 0.3,
+      "value": 130.79999999999998
+    },
+    {
+      "item_name": "Legal-size paper",
+      "stock": 481.0,
+      "unit_price": 0.08,
+      "value": 38.480000000000004
+    },
+    {
+      "item_name": "Notepads",
+      "stock": 399.0,
+      "unit_price": 2.0,
+      "value": 798.0
+    },
+    {
+      "item_name": "220 gsm poster paper",
+      "stock": 356.0,
+      "unit_price": 0.35,
+      "value": 124.6
+    },
+    {
+      "item_name": "Paper cups",
+      "stock": 651.0,
+      "unit_price": 0.08,
+      "value": 52.08
+    },
+    {
+      "item_name": "Paper napkins",
+      "stock": 418.0,
+      "unit_price": 0.02,
+      "value": 8.36
+    },
+    {
+      "item_name": "Matte paper",
+      "stock": 448.0,
+      "unit_price": 0.18,
+      "value": 80.64
+    },
+    {
+      "item_name": "Letterhead paper",
+      "stock": 627.0,
+      "unit_price": 0.12,
+      "value": 75.24
+    },
+    {
+      "item_name": "Recycled paper",
+      "stock": 355.0,
+      "unit_price": 0.08,
+      "value": 28.400000000000002
+    },
+    {
+      "item_name": "Flyers",
+      "stock": 492.0,
+      "unit_price": 0.15,
+      "value": 73.8
+    },
+    {
+      "item_name": "Eco-friendly paper",
+      "stock": 605.0,
+      "unit_price": 0.12,
+      "value": 72.6
+    },
+    {
+      "item_name": "Decorative adhesive tape (washi tape)",
+      "stock": 256.0,
+      "unit_price": 0.2,
+      "value": 51.2
+    },
+    {
+      "item_name": "Wrapping paper",
+      "stock": 367.0,
+      "unit_price": 0.15,
+      "value": 55.05
+    },
+    {
+      "item_name": "Heavyweight paper",
+      "stock": 799.0,
+      "unit_price": 0.2,
+      "value": 159.8
+    },
+    {
+      "item_name": "Sticky notes",
+      "stock": 613.0,
+      "unit_price": 0.03,
+      "value": 18.39
+    },
+    {
+      "item_name": "Party streamers",
+      "stock": 707.0,
+      "unit_price": 0.05,
+      "value": 35.35
+    },
+    {
+      "item_name": "Paper party bags",
+      "stock": 764.0,
+      "unit_price": 0.25,
+      "value": 191.0
+    },
+    {
+      "item_name": "Disposable cups",
+      "stock": 535.0,
+      "unit_price": 0.1,
+      "value": 53.5
+    },
+    {
+      "item_name": "Poster paper",
+      "stock": 418.0,
+      "unit_price": 0.25,
+      "value": 104.5
+    },
+    {
+      "item_name": "Bright-colored paper",
+      "stock": 286.0,
+      "unit_price": 0.12,
+      "value": 34.32
+    },
+    {
+      "item_name": "Standard copy paper",
+      "stock": 696.0,
+      "unit_price": 0.04,
+      "value": 27.84
+    },
+    {
+      "item_name": "Letter-sized paper",
+      "stock": 699.0,
+      "unit_price": 0.06,
+      "value": 41.94
+    },
+    {
+      "item_name": "Decorative paper",
+      "stock": 335.0,
+      "unit_price": 0.18,
+      "value": 60.3
+    },
+    {
+      "item_name": "Construction paper",
+      "stock": 796.0,
+      "unit_price": 0.07,
+      "value": 55.720000000000006
+    },
+    {
+      "item_name": "Uncoated paper",
+      "stock": 307.0,
+      "unit_price": 0.06,
+      "value": 18.419999999999998
+    },
+    {
+      "item_name": "Glitter paper",
+      "stock": 725.0,
+      "unit_price": 0.22,
+      "value": 159.5
+    },
+    {
+      "item_name": "Name tags with lanyards",
+      "stock": 217.0,
+      "unit_price": 0.75,
+      "value": 162.75
+    },
+    {
+      "item_name": "Envelopes",
+      "stock": 458.0,
+      "unit_price": 0.05,
+      "value": 22.900000000000002
+    }
+  ],
+  "top_selling_products": [
+    {
+      "item_name": null,
+      "total_units": null,
+      "total_revenue": 50000.0
+    }
+  ]
+}
+
+Loading test scenarios from quote_requests_sample.csv...
+Loaded 20 test scenarios successfully.
+Sample of loaded scenarios:
+                              job  ... request_date
+0                  office manager  ...   2025-04-01
+1                   hotel manager  ...   2025-04-03
+2  school board resouorce manager  ...   2025-04-04
+3             non-profit director  ...   2025-04-05
+4                  school teacher  ...   2025-04-05
+
+[5 rows x 5 columns]
+Initial Date for Inventory and Cash Balance: 2025-04-01
+Initial Cash Balance: $42324.22
+Initial Inventory Value: $7675.78
+Initial Cash Balance: $42324.22
+Initial Inventory Value: $7675.78
+OrchestrationAgent initialized.
+
+=== Request 1 ===
+Context: office manager organizing ceremony
+Request Date: 2025-04-01
+Cash Balance: $42324.22
+Inventory Value: $7675.78
+FUNC (get_supplier_delivery_date): Calculating for qty 0 from date string '2025-04-01'
+Response: {'inventory_check': {'Rolls of banner paper (36-inch width)': 546.0}, 'quote_details': {'items': [], 'total': 0, 'notes': ['Insufficient stock for Glossy paper. Requested: 200, Available: 0', 'Insufficient stock for 100 lb cover stock. Requested: 100, Available: 0', 'Insufficient stock for Colored paper. Requested: 100, Available: 0']}, 'order_confirmation': {'status': 'pending', 'actions': [], 'estimated_delivery_date': '2025-04-01', 'new_cash_balance': 42324.22}}
+Financial Report as of 2025-04-01:
+Updated Cash: $42324.22
+Updated Inventory: $7675.78
+
+=== Request 2 ===
+Context: hotel manager organizing parade
+Request Date: 2025-04-03
+Cash Balance: $42324.22
+Inventory Value: $7675.78
+FUNC (get_supplier_delivery_date): Calculating for qty 0 from date string '2025-04-03'
+Response: {'inventory_check': {'Rolls of banner paper (36-inch width)': 546.0}, 'quote_details': {'items': [], 'total': 0, 'notes': ['Insufficient stock for Large poster paper (24x36 inches). Requested: 500, Available: 0', 'Insufficient stock for Party streamers. Requested: 300, Available: 0', 'Insufficient stock for balloons for the parade. Please deliver the supplies by April 15. Requested: 200, Available: 0']}, 'order_confirmation': {'status': 'pending', 'actions': [], 'estimated_delivery_date': '2025-04-03', 'new_cash_balance': 42324.22}}
+Financial Report as of 2025-04-03:
+Updated Cash: $42324.22
+Updated Inventory: $7675.78
+
+=== Request 3 ===
+Context: school board resouorce manager organizing conference
+Request Date: 2025-04-04
+Cash Balance: $42324.22
+Inventory Value: $7675.78
+FUNC (get_supplier_delivery_date): Calculating for qty 500 from date string '2025-04-04'
+Response: {'inventory_check': {'Rolls of banner paper (36-inch width)': 546.0}, 'quote_details': {'items': [{'name': 'Rolls of banner paper (36-inch width)', 'quantity': 500, 'price': 2.5, 'total': 1250.0}], 'total': 1250.0, 'notes': ['Insufficient stock for A4 paper. Requested: 0, Available: 0', 'Insufficient stock for Rolls of banner paper (36-inch width). Requested: 0, Available: 546.0', 'There are 500 units of Rolls of banner paper (36-inch width) available at $2.50 each. Discount applied: $0.00.']}, 'order_confirmation': {'status': 'pending', 'actions': ['Sold 500 units of Rolls of banner paper (36-inch width).'], 'estimated_delivery_date': '2025-04-08', 'new_cash_balance': 44824.22}}
+Financial Report as of 2025-04-04:
+Updated Cash: $43574.22
+Updated Inventory: $6425.78
+
+=== Request 4 ===
+Context: non-profit director organizing reception
+Request Date: 2025-04-05
+Cash Balance: $43574.22
+Inventory Value: $6425.78
+FUNC (get_supplier_delivery_date): Calculating for qty 0 from date string '2025-04-05'
+Response: {'inventory_check': {'Rolls of banner paper (36-inch width)': 46.0}, 'quote_details': {'items': [], 'total': 0, 'notes': ['Insufficient stock for Rolls of banner paper (36-inch width). Requested: 500, Available: 46.0', 'Insufficient stock for A4 paper. Requested: 250, Available: 0']}, 'order_confirmation': {'status': 'pending', 'actions': [], 'estimated_delivery_date': '2025-04-05', 'new_cash_balance': 43574.22}}
+Financial Report as of 2025-04-05:
+Updated Cash: $43574.22
+Updated Inventory: $6425.78
+
+=== Request 5 ===
+Context: school teacher organizing party
+Request Date: 2025-04-05
+Cash Balance: $43574.22
+Inventory Value: $6425.78
+FUNC (get_supplier_delivery_date): Calculating for qty 0 from date string '2025-04-05'
+Response: {'inventory_check': {'Rolls of banner paper (36-inch width)': 46.0}, 'quote_details': {'items': [], 'total': 0, 'notes': ['Insufficient stock for Colored paper. Requested: 500, Available: 0', 'Insufficient stock for 100 lb cover stock. Requested: 300, Available: 0', 'Insufficient stock for Decorative adhesive tape (washi tape). Requested: 200, Available: 0']}, 'order_confirmation': {'status': 'pending', 'actions': [], 'estimated_delivery_date': '2025-04-05', 'new_cash_balance': 43574.22}}
+Financial Report as of 2025-04-05:
+Updated Cash: $43574.22
+Updated Inventory: $6425.78
+
+=== Request 6 ===
+Context: school teacher organizing assembly
+Request Date: 2025-04-06
+Cash Balance: $43574.22
+Inventory Value: $6425.78
+FUNC (get_supplier_delivery_date): Calculating for qty 0 from date string '2025-04-06'
+Response: {'inventory_check': {'Rolls of banner paper (36-inch width)': 46.0}, 'quote_details': {'items': [], 'total': 0, 'notes': ['Insufficient stock for Construction paper. Requested: 500, Available: 0', 'Insufficient stock for Rolls of banner paper (36-inch width). Requested: 300, Available: 46.0', 'Insufficient stock for 100 lb cover stock. Requested: 200, Available: 0']}, 'order_confirmation': {'status': 'pending', 'actions': [], 'estimated_delivery_date': '2025-04-06', 'new_cash_balance': 43574.22}}
+Financial Report as of 2025-04-06:
+Updated Cash: $43574.22
+Updated Inventory: $6425.78
+
+=== Request 7 ===
+Context: business owner organizing exhibition
+Request Date: 2025-04-07
+Cash Balance: $43574.22
+Inventory Value: $6425.78
+FUNC (get_supplier_delivery_date): Calculating for qty 0 from date string '2025-04-07'
+Response: {'inventory_check': {'Rolls of banner paper (36-inch width)': 46.0}, 'quote_details': {'items': [], 'total': 0, 'notes': ['Insufficient stock for Glossy paper. Requested: 500, Available: 0', 'Insufficient stock for Matte paper. Requested: 1000, Available: 0', 'Insufficient stock for Large poster paper (24x36 inches). Requested: 300, Available: 0', 'Insufficient stock for 100 lb cover stock. Requested: 200, Available: 0']}, 'order_confirmation': {'status': 'pending', 'actions': [], 'estimated_delivery_date': '2025-04-07', 'new_cash_balance': 43574.22}}
+Financial Report as of 2025-04-07:
+Updated Cash: $43574.22
+Updated Inventory: $6425.78
+
+=== Request 8 ===
+Context: school board resouorce manager organizing ceremony
+Request Date: 2025-04-07
+Cash Balance: $43574.22
+Inventory Value: $6425.78
+FUNC (get_supplier_delivery_date): Calculating for qty 0 from date string '2025-04-07'
+Response: {'inventory_check': {'Rolls of banner paper (36-inch width)': 46.0}, 'quote_details': {'items': [], 'total': 0, 'notes': ['Insufficient stock for Glossy paper. Requested: 500, Available: 0', 'Insufficient stock for Matte paper. Requested: 1000, Available: 0', 'Insufficient stock for Colored paper. Requested: 2000, Available: 0', 'Insufficient stock for Recycled paper. Requested: 3000, Available: 0']}, 'order_confirmation': {'status': 'pending', 'actions': [], 'estimated_delivery_date': '2025-04-07', 'new_cash_balance': 43574.22}}
+Financial Report as of 2025-04-07:
+Updated Cash: $43574.22
+Updated Inventory: $6425.78
+
+=== Request 9 ===
+Context: city hall clerk organizing reception
+Request Date: 2025-04-07
+Cash Balance: $43574.22
+Inventory Value: $6425.78
+FUNC (get_supplier_delivery_date): Calculating for qty 0 from date string '2025-04-07'
+Response: {'inventory_check': {'Rolls of banner paper (36-inch width)': 46.0}, 'quote_details': {'items': [], 'total': 0, 'notes': ['Insufficient stock for A4 paper. Requested: 200, Available: 0', 'Insufficient stock for Glossy paper. Requested: 100, Available: 0', 'Insufficient stock for Recycled paper. Requested: 50, Available: 0']}, 'order_confirmation': {'status': 'pending', 'actions': [], 'estimated_delivery_date': '2025-04-07', 'new_cash_balance': 43574.22}}
+Financial Report as of 2025-04-07:
+Updated Cash: $43574.22
+Updated Inventory: $6425.78
+
+=== Request 13 ===
+Context: school principal organizing gathering
+Request Date: 2025-04-08
+Cash Balance: $43574.22
+Inventory Value: $6425.78
+FUNC (get_supplier_delivery_date): Calculating for qty 0 from date string '2025-04-08'
+Response: {'inventory_check': {'Rolls of banner paper (36-inch width)': 46.0}, 'quote_details': {'items': [], 'total': 0, 'notes': ['Insufficient stock for 100 lb cover stock. Requested: 500, Available: 0']}, 'order_confirmation': {'status': 'pending', 'actions': [], 'estimated_delivery_date': '2025-04-08', 'new_cash_balance': 43574.22}}
+Financial Report as of 2025-04-08:
+Updated Cash: $43574.22
+Updated Inventory: $6425.78
+
+=== Request 12 ===
+Context: city hall clerk organizing party
+Request Date: 2025-04-08
+Cash Balance: $43574.22
+Inventory Value: $6425.78
+FUNC (get_supplier_delivery_date): Calculating for qty 0 from date string '2025-04-08'
+Response: {'inventory_check': {'Rolls of banner paper (36-inch width)': 46.0}, 'quote_details': {'items': [], 'total': 0, 'notes': ['Insufficient stock for 100 lb cover stock. Requested: 200, Available: 0', 'Insufficient stock for Standard copy paper. Requested: 500, Available: 0', 'Insufficient stock for Paper party bags. Requested: 100, Available: 0']}, 'order_confirmation': {'status': 'pending', 'actions': [], 'estimated_delivery_date': '2025-04-08', 'new_cash_balance': 43574.22}}
+Financial Report as of 2025-04-08:
+Updated Cash: $43574.22
+Updated Inventory: $6425.78
+
+=== Request 10 ===
+Context: business owner organizing show
+Request Date: 2025-04-08
+Cash Balance: $43574.22
+Inventory Value: $6425.78
+FUNC (get_supplier_delivery_date): Calculating for qty 0 from date string '2025-04-08'
+Response: {'inventory_check': {'Rolls of banner paper (36-inch width)': 46.0}, 'quote_details': {'items': [], 'total': 0, 'notes': ['Insufficient stock for 100 lb cover stock. Requested: 500, Available: 0']}, 'order_confirmation': {'status': 'pending', 'actions': [], 'estimated_delivery_date': '2025-04-08', 'new_cash_balance': 43574.22}}
+Financial Report as of 2025-04-08:
+Updated Cash: $43574.22
+Updated Inventory: $6425.78
+
+=== Request 11 ===
+Context: event manager organizing exhibition
+Request Date: 2025-04-08
+Cash Balance: $43574.22
+Inventory Value: $6425.78
+FUNC (get_supplier_delivery_date): Calculating for qty 0 from date string '2025-04-08'
+Response: {'inventory_check': {'Rolls of banner paper (36-inch width)': 46.0}, 'quote_details': {'items': [], 'total': 0, 'notes': ['Insufficient stock for Matte paper. Requested: 500, Available: 0']}, 'order_confirmation': {'status': 'pending', 'actions': [], 'estimated_delivery_date': '2025-04-08', 'new_cash_balance': 43574.22}}
+Financial Report as of 2025-04-08:
+Updated Cash: $43574.22
+Updated Inventory: $6425.78
+
+=== Request 14 ===
+Context: city hall clerk organizing performance
+Request Date: 2025-04-09
+Cash Balance: $43574.22
+Inventory Value: $6425.78
+FUNC (get_supplier_delivery_date): Calculating for qty 0 from date string '2025-04-09'
+Response: {'inventory_check': {'Rolls of banner paper (36-inch width)': 46.0}, 'quote_details': {'items': [], 'total': 0, 'notes': ['Insufficient stock for A4 paper. Requested: 0, Available: 0', 'Insufficient stock for Large poster paper (24x36 inches). Requested: 0, Available: 0', 'Insufficient stock for 100 lb cover stock. Requested: 500, Available: 0']}, 'order_confirmation': {'status': 'pending', 'actions': [], 'estimated_delivery_date': '2025-04-09', 'new_cash_balance': 43574.22}}
+Financial Report as of 2025-04-09:
+Updated Cash: $43574.22
+Updated Inventory: $6425.78
+
+=== Request 15 ===
+Context: event manager organizing demonstration
+Request Date: 2025-04-12
+Cash Balance: $43574.22
+Inventory Value: $6425.78
+FUNC (get_supplier_delivery_date): Calculating for qty 0 from date string '2025-04-12'
+Response: {'inventory_check': {'Rolls of banner paper (36-inch width)': 46.0}, 'quote_details': {'items': [], 'total': 0, 'notes': ['Insufficient stock for A4 paper. Requested: 0, Available: 0', 'Insufficient stock for Colored paper. Requested: 0, Available: 0', 'Insufficient stock for Rolls of banner paper (36-inch width). Requested: 500, Available: 46.0']}, 'order_confirmation': {'status': 'pending', 'actions': [], 'estimated_delivery_date': '2025-04-12', 'new_cash_balance': 43574.22}}
+Financial Report as of 2025-04-12:
+Updated Cash: $43574.22
+Updated Inventory: $6425.78
+
+=== Request 16 ===
+Context: school teacher organizing assembly
+Request Date: 2025-04-13
+Cash Balance: $43574.22
+Inventory Value: $6425.78
+FUNC (get_supplier_delivery_date): Calculating for qty 0 from date string '2025-04-13'
+Response: {'inventory_check': {'Rolls of banner paper (36-inch width)': 46.0}, 'quote_details': {'items': [], 'total': 0, 'notes': ['Insufficient stock for A4 paper. Requested: 500, Available: 0', 'Insufficient stock for Construction paper. Requested: 200, Available: 0', 'Insufficient stock for Large poster paper (24x36 inches). Requested: 100, Available: 0']}, 'order_confirmation': {'status': 'pending', 'actions': [], 'estimated_delivery_date': '2025-04-13', 'new_cash_balance': 43574.22}}
+Financial Report as of 2025-04-13:
+Updated Cash: $43574.22
+Updated Inventory: $6425.78
+
+=== Request 17 ===
+Context: restaurant manager organizing reception
+Request Date: 2025-04-14
+Cash Balance: $43574.22
+Inventory Value: $6425.78
+FUNC (get_supplier_delivery_date): Calculating for qty 0 from date string '2025-04-14'
+Response: {'inventory_check': {'Rolls of banner paper (36-inch width)': 46.0}, 'quote_details': {'items': [], 'total': 0, 'notes': ['Insufficient stock for A4 paper. Requested: 1000, Available: 0', 'Insufficient stock for Colored paper. Requested: 500, Available: 0', 'Insufficient stock for Paper napkins. Requested: 2000, Available: 0', 'Insufficient stock for Paper cups. Requested: 1000, Available: 0', 'Insufficient stock for Paper plates. Requested: 500, Available: 0']}, 'order_confirmation': {'status': 'pending', 'actions': [], 'estimated_delivery_date': '2025-04-14', 'new_cash_balance': 43574.22}}
+Financial Report as of 2025-04-14:
+Updated Cash: $43574.22
+Updated Inventory: $6425.78
+
+=== Request 18 ===
+Context: office manager organizing ceremony
+Request Date: 2025-04-14
+Cash Balance: $43574.22
+Inventory Value: $6425.78
+FUNC (get_supplier_delivery_date): Calculating for qty 0 from date string '2025-04-14'
+Response: {'inventory_check': {'Rolls of banner paper (36-inch width)': 46.0}, 'quote_details': {'items': [], 'total': 0, 'notes': ['Insufficient stock for 100 lb cover stock. Requested: 500, Available: 0', 'Insufficient stock for Standard copy paper. Requested: 1000, Available: 0', 'Insufficient stock for Colored paper. Requested: 200, Available: 0']}, 'order_confirmation': {'status': 'pending', 'actions': [], 'estimated_delivery_date': '2025-04-14', 'new_cash_balance': 43574.22}}
+Financial Report as of 2025-04-14:
+Updated Cash: $43574.22
+Updated Inventory: $6425.78
+
+=== Request 19 ===
+Context: city hall clerk organizing exhibition
+Request Date: 2025-04-15
+Cash Balance: $43574.22
+Inventory Value: $6425.78
+FUNC (get_supplier_delivery_date): Calculating for qty 0 from date string '2025-04-15'
+Response: {'inventory_check': {'Rolls of banner paper (36-inch width)': 46.0}, 'quote_details': {'items': [], 'total': 0, 'notes': ['Insufficient stock for Glossy paper. Requested: 2000, Available: 0', 'Insufficient stock for Matte paper. Requested: 1500, Available: 0', 'Insufficient stock for 100 lb cover stock. Requested: 1000, Available: 0']}, 'order_confirmation': {'status': 'pending', 'actions': [], 'estimated_delivery_date': '2025-04-15', 'new_cash_balance': 43574.22}}
+Financial Report as of 2025-04-15:
+Updated Cash: $43574.22
+Updated Inventory: $6425.78
+
+=== Request 20 ===
+Context: restaurant manager organizing concert
+Request Date: 2025-04-17
+Cash Balance: $43574.22
+Inventory Value: $6425.78
+FUNC (get_supplier_delivery_date): Calculating for qty 0 from date string '2025-04-17'
+Response: {'inventory_check': {'Flyers': 492.0}, 'quote_details': {'items': [], 'total': 0, 'notes': ['Insufficient stock for Flyers. Requested: 0, Available: 492.0', 'Insufficient stock for Large poster paper (24x36 inches). Requested: 0, Available: 0', 'Insufficient stock for tickets. We need these items delivered by May 15. Requested: 0, Available: 0']}, 'order_confirmation': {'status': 'pending', 'actions': [], 'estimated_delivery_date': '2025-04-17', 'new_cash_balance': 43574.22}}
+Financial Report as of 2025-04-17:
+Updated Cash: $43574.22
+Updated Inventory: $6425.78
+
+===== FINAL FINANCIAL REPORT =====
+Final Cash: $43574.22
+Final Inventory: $6425.78
+project student$ 
