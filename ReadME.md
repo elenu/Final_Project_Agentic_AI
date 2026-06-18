@@ -26,7 +26,7 @@ This document summarizes the multi-agent system implemented in `project_starter_
   c. `get_item_price(item_name)`, `check_inventory(request, as_of_date)`, `generate_quote(request, inventory_check)`, `place_order(quote_details, request_date)` — provide the business logic for quoting and ordering.
 
 - Data & DB:
-  a. Uses an SQLite DB `munder_difflin.db` created via SQLAlchemy's `create_engine`.
+  a. Uses an SQLite DB `munder_difflin.db` created via SQLAlchemy's `create_engine` (not provided in this repo).
   b. On `init_database()` the script creates `transactions`, `inventory`, `quotes`, and `quote_requests` tables from CSVs and seeds inventory.
 
 - Main evaluation flow with `run_test_scenarios()`:
@@ -67,7 +67,7 @@ python3 project_starter_Elena.py
 4. After a successful run we find `test_results.csv` in the same folder.
 
 Quick verification steps
-- Confirmed `munder_difflin.db` appeared (SQLite DB).
+- Confirmed `munder_difflin.db` appeared (SQLite DB; not provided in this repo).
 - Inspected `test_results.csv` with `head` to confirm rows exist.
 
 ## 3. Strengths observed
@@ -171,3 +171,6 @@ smolagents==0.1.0
 pytest==8.2.5
 rapidfuzz==2.15.1   # optional, for better fuzzy matching
 ```
+## 10. License
+
+MIT license
